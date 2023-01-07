@@ -88,6 +88,17 @@ body{
     background-image: url(images/watch.png);
 
 }
+.gradient-title{
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2281.26px;
+
+}
 
 
 /* Footer container */
