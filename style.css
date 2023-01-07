@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 *{
     font-family: 'Open Sans', sans-serif;
 }
@@ -51,11 +54,11 @@
     padding-bottom: 55px;
 
 }
-.skill{
+.flexible{
+    display: flex;
     justify-content: space-around;
-    align-items: center;
+    padding-bottom: 100px;
 }
-
 .skill-icon{
     padding: none;
 }
@@ -76,18 +79,30 @@
 .skill-description{
     color: #737272;
 }
+.fixing-gradient{
+    margin-left: 150px;
+    padding-bottom: 60px;
+}
+.gradient-solution{
+    background-repeat: no-repeat;
+    background-image: url(images/watch.png);
+
+}
+
 
 /* Footer container */
 
 .footer-container{
-    width: 1600px;
-    height: 577px;
+    width: 100%;
+    height: 70vh;
     background: #151414;
-    text-align: left;
     border-radius: 10px;
-    padding-left: 150px;
-    justify-content: space-between;
     padding-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 120px;
+   
 }
 .footer-title{
     font-weight: 700;
@@ -96,8 +111,9 @@
 .footer-description{
     color: #FFFFFF;
 }
-.footer-button{
+.footer-input{
     color: whitesmoke;
+    padding-right: 250px;
 }
 
 .text-type{
@@ -109,11 +125,11 @@
 .input-button{
     font-size: 20px;
 }
-.footer-submit{
-    margin-top: 10px;
-    width: 150.11px;
+.submit-btn{
+    width: 120px;
     height: 30px;
     color: #F15B22;
-    margin-left: 170px;
+    background-color: whitesmoke;
+    font-weight: bold;
 }
 
