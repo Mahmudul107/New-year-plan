@@ -11,6 +11,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    border-radius: 10px;
 }
 .banner-title{
     width: 525px;
@@ -43,12 +44,76 @@
     align-items: center;
 }
 
+/* My plans */
+.my-plans{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 55px;
+
+}
+.skill{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-icon{
+    padding: none;
+}
+.Skill-container-title{
+    padding-bottom: 60px;
+    text-align: center;
+    color: #151414;
+    font-weight: 800;
+    font-size: 50px;
+}
+.skill-title{
+    padding: 0;
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-description{
+    color: #737272;
+}
+
 /* Footer container */
 
 .footer-container{
+    width: 1600px;
+    height: 577px;
     background: #151414;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 150px;
+    justify-content: space-between;
+    padding-top: 170px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-description{
+    color: #FFFFFF;
+}
+.footer-button{
+    color: whitesmoke;
 }
 
 .text-type{
-    color: #FFFFFF;
+    color: aliceblue;
 }
+.footer-button{
+    font-size: 20px;
+}
+.input-button{
+    font-size: 20px;
+}
+.footer-submit{
+    margin-top: 10px;
+    width: 150.11px;
+    height: 30px;
+    color: #F15B22;
+    margin-left: 170px;
+}
+
